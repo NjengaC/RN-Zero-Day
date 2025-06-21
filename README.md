@@ -77,6 +77,11 @@ When you want to forcefully reload, for example to reset the state of your app, 
 
 You've successfully run and modified your React Native App. :partying_face:
 
+![image](https://github.com/user-attachments/assets/6cca5fc2-ad53-4b92-8397-46f9fe90a0f8)
+![image](https://github.com/user-attachments/assets/32229585-e87c-45ba-8240-7a118772ef2b)
+![image](https://github.com/user-attachments/assets/c677d4d0-898c-4695-8593-08f1d61806ff)
+
+
 ### Now what?
 
 - If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
