@@ -2,30 +2,23 @@
 import React, { JSX } from "react";
 
 import {
+    View,
+    Text,
     StyleSheet,
     useColorScheme,
-    ScrollView,
-    SafeAreaView,
+    ScrollView
 } from 'react-native';
 import FlatCards from "./FlatCards";
-import ElevatedCards from "./ElevatedCards";
-import FancyCard from "./FancyCard";
-// import LinkButton from "./Link";
-import ActionCard from "./ActionCard";
-import ContactList from "./ContactList";
 
-function App(): JSX.Element {
+function AppPro(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark'
   return(
-    <SafeAreaView>
-      <ScrollView>
-        <FlatCards />
-        <ElevatedCards />
-        <FancyCard />
-        <ContactList />
-        <ActionCard />
-      </ScrollView>
-    </SafeAreaView>
+    <ScrollView>
+      <View style = {styles.container}>
+        <Text style = {isDarkMode ? styles.whiteMode : styles.darkMode}>Cards Project</Text>
+      </View>
+      <FlatCards />
+    </ScrollView>
   )
 }
 
@@ -46,4 +39,4 @@ const styles = StyleSheet.create({
 
 }
 )
-export default App;
+export default AppPro;
